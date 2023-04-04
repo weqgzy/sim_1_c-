@@ -24,7 +24,9 @@ void Task1()
 {
 	int a = ReadInt("a");
 	int b = ReadInt("b");
-	int less = a;
+	int less = b;
+
+	System.Console.Write("max - ");
 
 	if (IsMoreThen(a, b))
 	{
@@ -33,6 +35,7 @@ void Task1()
 
 	Console.WriteLine(less);
 }
+
 
 int ReadInt(string argument)
 {
